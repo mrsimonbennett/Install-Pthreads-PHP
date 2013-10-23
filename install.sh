@@ -18,7 +18,7 @@ cd ../
 
 make clean
 make
-make test
+#make test
 make install
 cd ext/openssl
 mv config0.m4 config.m4
