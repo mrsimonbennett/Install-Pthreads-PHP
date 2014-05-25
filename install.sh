@@ -16,7 +16,6 @@ cd ../
 ./buildconf --force
 ./configure --enable-maintainer-zts --enable-sockets --enable-pcntl --enable-pthreads --with-tsrm-pthreads --with-mysql=mysqlnd --with-mysqli=mysqlnd --with-pgsql=/usr --with-tidy=/usr  --with-pdo-pgsql=/usr --with-pdo-mysql=mysqlnd --with-xsl=/usr --enable-zip --with-pear  --with-gd --with-jpeg-dir=/usr --with-png-dir=/usr --with-mcrypt=/usr  --with-config-file-path=/usr/local/lib/
 
-make clean
 make
 make install
 cd ext/openssl
