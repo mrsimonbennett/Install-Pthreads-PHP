@@ -3,7 +3,7 @@
 
 mkdir /tmp/install
 cd /tmp/install
-wget http://uk1.php.net/distributions/php-5.4.15.tar.bz2
+wget http://uk1.php.net/distributions/php-5.4.28.tar.bz2
 apt-get update
 apt-get upgrade -yq
 apt-get -yq install bzip2 openssl libxml2 libxml2-dev gcc make autoconf htop sudo git dstat iotop iftop 
@@ -18,7 +18,6 @@ cd ../
 
 make clean
 make
-#make test
 make install
 cd ext/openssl
 mv config0.m4 config.m4
